@@ -14,58 +14,56 @@ h1 {
   font-family: 'Eczar', Helvetica, serif;
 }
 p {
-  border: 1px solid black;
+  /*border: 1px solid black;*/
   background-color: white;
   width: 90%;
   height: 50%;
-  margin-bottom:10px;
   margin-right: auto;
-  margin-top: 0px;
-  padding: 50px;
+  margin-left: auto;
   font-family: 'Eczar', Helvetica, serif;
-  color: black;
+  color: white;
+  color:black;
 }
-section .pg1{
+ .pg1, .pg2, .pg3{
 	border: 1px solid black;
+	text-align: center;
+	width: 30%;
+	margin-left: 70%;
+	font-family: 'Eczar', Helvetica, serif;
+	font-weight: bold;
+	font-size: 125%;
+	margin-bottom: 0;
+	margin-top: 0;
+	padding: 5px;
 	background-color: #FFFF99;
-	margin: 0px;
-	width: 30%;
-	font-family: 'Eczar',Helvetica,serif;
-	position: absolute;
-	text-align: right;
-	/*Vete desde top y baja 50 y vete ddesde left y muevete 50*/
-	left: 60%;
+	word-wrap:break-word;
 }
-section
+.pg2
 {
-	position: relative;
-	margin: 0px;
+background-color: #E9AC50;
 }
-section .pg2
+.pg3
 {
-	border: 1px solid black;
-	background-color: #E9AC50;
-	margin: 0px;
-	width: 30%;
-	font-family: 'Eczar',Helvetica,serif;
-	position: absolute;
-	text-align: right;
-	/*Vete desde top y baja 50 y vete ddesde left y muevete 50*/
-	left: 60%;
+background-color: #CCCC00;
 }
 
-section .pg3
+section
 {
 	border: 1px solid black;
-	background-color: #CCCC00;
-	margin: 0px;
-	width: 30%;
-	font-family: 'Eczar',serif;
-	position: absolute;
-	text-align: right;
-	/*Vete desde top y baja 50 y vete ddesde left y muevete 50*/
-	left: 60%;
+	background-color: #FFFFFF;
+	width: 100%;
+	height: 50%;
+	font-family: 'Eczar', Helvetica, serif;
+	position: relative;
+	overflow: auto;
 }
+.container
+{
+	margin-top: 5px;
+	margin-bottom: 5px;
+	padding: 10px;
+}
+
 
 
 /* Simple Responsive Framework. */
@@ -174,7 +172,7 @@ section .pg3
     width: 91.66%;
   }
   .col-sm-12 {
-    width: 105%;
+    width: 100%;
   }
 }
 
