@@ -1,0 +1,231 @@
+* {
+  box-sizing: border-box;
+}
+body{
+	background-color: ##155799;
+    background-image: linear-gradient(90deg, #4C9900, #CC0000);
+}
+
+h1 {
+  margin: 20px;
+  padding: 20px;
+  text-align: center;
+  color: #FFFFFF;
+  font-family: 'Eczar', Helvetica, serif;
+}
+p {
+  border: 1px solid black;
+  background-color: white;
+  width: 90%;
+  height: 50%;
+  margin-bottom:10px;
+  margin-right: auto;
+  margin-top: 0px;
+  padding: 50px;
+  font-family: 'Eczar', Helvetica, serif;
+  color: black;
+}
+section .pg1{
+	border: 1px solid black;
+	background-color: #FFFF99;
+	margin: 0px;
+	width: 30%;
+	font-family: 'Eczar',Helvetica,serif;
+	position: absolute;
+	text-align: right;
+	/*Vete desde top y baja 50 y vete ddesde left y muevete 50*/
+	left: 60%;
+}
+section
+{
+	position: relative;
+	margin: 0px;
+}
+section .pg2
+{
+	border: 1px solid black;
+	background-color: #E9AC50;
+	margin: 0px;
+	width: 30%;
+	font-family: 'Eczar',Helvetica,serif;
+	position: absolute;
+	text-align: right;
+	/*Vete desde top y baja 50 y vete ddesde left y muevete 50*/
+	left: 60%;
+}
+
+section .pg3
+{
+	border: 1px solid black;
+	background-color: #CCCC00;
+	margin: 0px;
+	width: 30%;
+	font-family: 'Eczar',serif;
+	position: absolute;
+	text-align: right;
+	/*Vete desde top y baja 50 y vete ddesde left y muevete 50*/
+	left: 60%;
+}
+
+
+/* Simple Responsive Framework. */
+.row {
+  width: 100%;
+}
+/********** Desktop **********/
+@media (min-width: 992px) {
+	h1
+	{
+		font-size: 4em;
+	}
+	h2
+	{
+		font-size: 1em;
+	}
+	
+  .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+    float: left;
+   /* border: 1px solid black;*/
+
+  }
+  .col-md-1 {
+    width: 8.33%;
+  }
+  .col-md-2 {
+    width: 16.66%;
+  }
+  .col-md-3 {
+    width: 25%;
+  }
+  .col-md-4 {
+    width: 33.33%;
+  }
+  .col-md-5 {
+    width: 41.66%;
+  }
+  .col-md-6 {
+    width: 50%;
+  }
+  .col-md-7 {
+    width: 58.33%;
+  }
+  .col-md-8 {
+    width: 66.66%;
+  }
+  .col-md-9 {
+    width: 74.99%;
+  }
+  .col-md-10 {
+    width: 83.33%;
+  }
+  .col-md-11 {
+    width: 91.66%;
+  }
+  .col-md-12 {
+    width: 100%;
+  }
+}
+
+/********** Tablet **********/
+@media (min-width: 768px) and (max-width: 991px) {
+	h1{
+		font-size: 4em;
+	}
+	h2
+	{
+		font-size: 1em;
+	}
+	
+  .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
+    float: left;
+    /*border: 1px solid black;*/
+  }
+  .col-sm-1 {
+    width: 8.33%;
+  }
+  .col-sm-2 {
+    width: 16.66%;
+  }
+  .col-sm-3 {
+    width: 25%;
+  }
+  .col-sm-4 {
+    width: 33.33%;
+  }
+  .col-sm-5 {
+    width: 41.66%;
+  }
+  .col-sm-6 {
+    width: 50%;
+  }
+  .col-sm-7 {
+    width: 58.33%;
+  }
+  .col-sm-8 {
+    width: 66.66%;
+  }
+  .col-sm-9 {
+    width: 74.99%;
+  }
+  .col-sm-10 {
+    width: 83.33%;
+  }
+  .col-sm-11 {
+    width: 91.66%;
+  }
+  .col-sm-12 {
+    width: 105%;
+  }
+}
+
+/********** Cellphone **********/
+@media (max-width: 767px) {
+	h1{
+		font-size: 1.5em;
+	}
+	h2
+	{
+		font-size: 1em;
+	}
+  .col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12 {
+    float: left;
+    /*border: 1px solid black;*/
+  }
+  .col-xs-1 {
+    width: 8.33%;
+  }
+  .col-xs-2 {
+    width: 16.66%;
+  }
+  .col-xs-3 {
+    width: 25%;
+  }
+  .col-xs-4 {
+    width: 33.33%;
+  }
+  .col-xs-5 {
+    width: 41.66%;
+  }
+  .col-xs-6 {
+    width: 50%;
+  }
+  .col-xs-7 {
+    width: 58.33%;
+  }
+  .col-xs-8 {
+    width: 66.66%;
+  }
+  .col-xs-9 {
+    width: 74.99%;
+  }
+  .col-xs-10 {
+    width: 83.33%;
+  }
+  .col-xs-11 {
+    width: 91.66%;
+  }
+  .col-xs-12 {
+    width: 100%;
+  }
+}
+

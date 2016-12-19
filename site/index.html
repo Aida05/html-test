@@ -3,6 +3,103 @@
 <head>
 	<title>Hello!!</title>
 	<meta charset="utf-8">
+<style>
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+html
+{
+	/* En font family pones combinaciones de fuentes para que haya otras opciones si no se tiene esa fuente instalada*/
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: #00aaff;
+	/*font-style: Italic or not italic*/
+	/*font-weight: Negrita o no o que tan negrita*/
+	/*font-size*: van en pixels,px. */
+	/*text-transform: lowercase capitalize uppercase*/
+	text-transform: lowercase;
+	/*text-align: center justify left right;*/
+	text-align: justify;
+	margin: 0;
+	padding: 0;
+}
+	p{
+		color: red;
+		font-size:20px;
+		font-style: black;
+		text-align: center;
+		width: 500px;
+	}
+	h1{
+		color:blue;
+		font-size:30px;
+		height: 30px;
+		text-align: center;
+		width: 500px;
+		font-weight: bold;
+		font-style: italic;
+	}
+	#tco{
+		font-family: "Tahoma, Geneva, sans-serif";
+		font-size: 20px;
+		background-color: pink;
+		width: 500px;
+		opacity: .7;
+		padding: 50px 30px 50px 80px;
+	}
+	section li{
+		font-size: 25px;
+		font-weight: bold;
+		color:red;
+		text-decoration: none;
+	}
+	div li{
+		list-style: none;
+	}
+	section li
+	{
+		list-style: none;
+	}
+	ul a:link, a:visited
+	{
+		text-decoration: none;
+		border: 1.50px solid black;
+		color:black;
+		background-color: gray;
+		display: block;
+		width: 500px;
+		text-align: center;
+		margin-bottom: 10px;
+
+	}
+	/* hover cuando el usuario pasa el boton, active, cuando lo presiona*/
+	ul a:hover, a:active
+	{
+		background-color: white;
+		color:purple;
+	}
+ul ul li:nth-child(2)
+{
+	font-style: italic;
+}
+ul ul li:nth-child(odd):hover {
+  background-color: green;
+  cursor: pointer;
+}
+ul ul li:nth-child(even):hover {
+  background-color: green;
+  cursor: pointer;
+}
+.box{
+	background-color: #aaffee;
+	padding: 20px 50px 0px 80px;
+	border: 3px solid white;
+	margin:40px;
+	width: 100px;
+	overflow: scroll;
+}
+</style>
 </head>
 <body>
 <h1>Listas</h1>
@@ -40,23 +137,32 @@
 	</ol>
 </div>
 <h1 id="top">External links</h1>
-<section>
-	<p>
+<section style="background-color: gray">
+<h1>Youtube</h1>
+	<p class="box">
 		Go to an external link
 		<a href="https://www.youtube.com/watch?v=dvgZkm1xWPE", target="_blank" title="youtube video">ColdPlay</a>
 	</p>
 </section>
 <section id="ing">
 <h1>Ingenieria de software</h1>
-<p>Blah blah diagramas blah blah blah planeacion blah blah blah importante</p>
+<p>Blah blah diagramas blah blah blah planeacion blah blah blah importante
+Lorem ipsum
+Sacar el máximo provecho de cada objeto para evitar desechar y comprar cosas nuevas todo el tiempo.
+Private Browsing doesn’t make you anonymous on the Internet. Your employer or Internet service provider can still know what page you visit. 
+</p>
 </section>
 <section id="tco">
 <h1>Taller de compiladores blah blah</h1>
-<p>Parrafo parrafo que pertenece a taller de compiladores</p>
+<p>Parrafo parrafo que pertenece a taller de compiladores
+Sacar el máximo provecho de cada objeto para evitar desechar y comprar cosas nuevas todo el tiempo.
+Private Browsing doesn’t make you anonymous on the Internet. Your employer or Internet service provider can still know what page you visit. </p>
 </section>
 <section id="tso">
 <h1>Taller de sistemas operativos</h1>
-<p>Parrafo parrafo que pertenece a taller de sistemas operativos, blah blah semaforos, blah blah exclusion mutua</p>	
+<p>Parrafo parrafo que pertenece a taller de sistemas operativos, blah blah semaforos, blah blah exclusion mutua
+Sacar el máximo provecho de cada objeto para evitar desechar y comprar cosas nuevas todo el tiempo.
+Private Browsing doesn’t make you anonymous on the Internet. Your employer or Internet service provider can still know what page you visit. </p>	
 </section>
 <div>
 	<h1><a name="nieve">Nieve</a></h1>

@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Ejemplos de texto</title>
+<style>
+*{
+box-sizing: border-box;
+margin: 0;
+  padding: 0;
+}
+h1 {
+  margin-bottom: 15px;
+}
+
+	#bg {
+  width: 500px;
+  height: 500px;
+  background: url('yaakov.png') no-repeat top center;
+  background-color: blue;
+}
+div{
+	background: url('yaakov.png') no-repeat top center;
+  background-color: #00FFFF;
+}
+div.floating p{
+	width: 50px;
+	height: 50px;
+	border: 1px solid black;
+	float:left;
+	margin: 10px;
+}
+div.column p
+{
+	width: 50%;
+	/*border: 1px solid black;*/
+	float: left;
+	padding: 10px;
+}
+#p1{
+	background-color:#AACC55;
+}
+#p2
+{
+	background-color:#CC55DD;
+}
+#p3{
+	background-color: #A52A2A;
+}
+#p4{
+	background-color: #FF00AA;
+}
+#p5
+{
+	background-color: #AACC00;
+	clear: left;
+}
+#p6
+{
+	background-color: #CCFFAA;
+}
+section{
+	clear: left;
+}
+div.position p
+{
+	width: 50px;
+  height: 50px;
+  border: 1px solid black;
+  margin-bottom: 15px;
+}
+div.position
+{
+	position: relative;
+}
+#p7{
+	background-color: red;
+	position: relative;
+	/*Vete desde top y baja 50 y vete ddesde left y muevete 50*/
+	top: 65px;
+	left: 65px;
+}
+#p8
+{
+background-color: #DEB887;
+}
+#p9{
+ background-color: #5F9EA0;
+ position: absolute;
+ top: 0;
+ left: 0;
+
+}
+#p10
+{
+background-color: #FF7F50;
+}
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+  #p1 {
+    width: 80%;
+  }
+  #p2 {
+    width: 200px;
+    height: 500px;
+  }
+}
+
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+  #p1 {
+    width: 50%;
+  }
+  #p2 {
+    width: 100px;
+    height: 100px;
+  }
+  body {
+    background-color: blue;
+  }
+}
+</style>
+</head>
+<body>
+<h1>Two Column Design</h1>
+
+<div class="column">
+  <p id="p1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia distinctio aliquid cupiditate perferendis fuga, sit quasi alias vero sunt non, ratione earum dolores nihil! Consequuntur pariatur totam incidunt soluta expedita.</p>
+  <p id="p2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta beatae voluptatibus veniam placeat iure unde assumenda porro neque voluptate esse sit magnam facilis labore odit, provident a ea! Nulla, minima.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius nemo vitae, cupiditate odio magnam reprehenderit esse eum reiciendis repellendus incidunt sequi! Autem, laudantium, accusamus. Doloribus tempora alias minima laborum, provident!</p>
+  <section>This is regular content continuing after the the paragraph boxes.</section>
+</div>
+
+<h1>Floating Elements</h1>
+
+<div class="floating">
+  <p id="p3"></p>
+  <p id="p4"></p>
+  <p id="p5"></p>
+  <p id="p6"></p>
+  <section>This is regular content continuing after the the paragraph boxes.</section>
+</div>
+<h1>Posiciones</h1>
+<div class="position">
+Posicion relativa
+	<p id="p7"></p>
+	<p id="p8"></p>
+	<p id="p9"></p>
+	<p id="p10"></p>
+</div>
+</body>
+</html>
